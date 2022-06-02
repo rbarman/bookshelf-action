@@ -39,8 +39,8 @@ jobs:
         run: npm run package
       - name: Publish package
         uses: stefanzweifel/git-auto-commit-action@v4.9.2
-        with:
-          commit_message: ":rocket: Deploy new version [skip ci]"
-          commit_user_name: Finding Anand
-          commit_user_email: bot@anandchowdhary.com
-          commit_author: Finding Anand <bot@anandchowdhary.com>
+        # with:
+        #   commit_message: ":rocket: Deploy new version [skip ci]"
+        #   commit_user_name: Finding Anand
+        #   commit_user_email: bot@anandchowdhary.com
+        #   commit_author: Finding Anand <bot@anandchowdhary.com>
